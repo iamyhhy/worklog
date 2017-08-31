@@ -1,0 +1,90 @@
+1. fMRI project preparation
+    a. all the ICSE paper info is in the svn repo:
+    church.cs.virginia.edu
+    username: yu
+    
+    b. check the ICSE paper for more details of:
+        i. the magic keyboard that can be used in a fmri machine
+        ii. useful citations 
+
+    c. think about how to enable "writing code" in this experiment. This
+    can be a starter paper from this project.
+
+    d. "Provenance" study
+        i. what stimuli? In the ICSE paper, it used code from github and
+      english phrase from SAT books. In this new study, do you want to
+      use IDE? Which IDE? Limitation: small screen, no mouse, touch
+      typing.
+        ii. What are the categories for "who the code is written by"?
+        Trusted Colleague, An suspacious spy country? 
+        iii. Do we say anything on the screen to the
+        paticipants?e.g."This code is written by XXX"
+        iv. What questions do we ask in the experiment? e.g. "Would you
+        accept this code?" But we do want to ask more questions to
+        maximize knowledge we can learn from the experiment.
+
+     e. How IRB works here?
+
+    #########TASK TO DO:##########
+
+    a. Check out how IRB works. Do you need to do any online training
+    like CITI? Can you transfer it from UVa? Can you transfer an IRB
+    protocol from UVa? Or at least can you use an old IRB protocol from
+    UVa as a reference to shorten the IRB process in UMich?
+
+    b. Ask tyler for course slides for doing the math of fMri data
+
+    c. Find collaborators in Medicine, then email Wes.
+
+    d. Get Med school IDs
+    
+    e. Chase down citations in psychology about medical imaging, brain
+    usage for different tasks and different cognition of others. (people
+    use different part of brain if they are informed someone else is
+    gonna cheat on him/her)
+
+    f. Buy a keyboard---maybe we already have one. Is it the one cited
+    in the ICSE paper?
+
+
+
+
+
+
+2. Quadcopter project
+    ######## TASK TO DO:########
+    Make the tracign work for a linked list.
+    linked list *l
+    read in a buch of numbers and insert in the link list
+    reverse it
+    print it
+
+    Can you trace the map form the global space to the heap of this
+    linked list? So next time you resume the code, you can make it
+    follow tha right map or anyway get the right data in the linked
+    list?
+
+    There are two methods that can work:
+    a. low-level binary operation
+    "Boenm-Wiser GC"
+    When a segment fault happens, do not let the OS kill your program,
+    instead, call some other function then resume the program.
+
+    cons: do not need to change the source code.
+
+    b. rewrite source code
+    list *tmp
+    for {tmp=l 
+    tmp!=null
+    tmp= tmp-> next}
+    save tmp-> data
+    then print "data" out and save it somewhere
+
+    cons: you can write code to write code. E.g. CIL
+    pros: you have to control variables: what variables do you want to
+    do this to?
+
+
+3. Project 3: Pick up something you are interested in from other
+faculties' group. Find 2 or 3 candidates and email Wes.
+    
